@@ -11,7 +11,7 @@ function hitung_rata($arr) {
     $n = sizeof($arr);
     $rt = 0;
 
-	for ($i = 0; $i < n; $i++){
+	for ($i = 0; $i < $n; $i++){
         $rt = $rt + $arr[$i];
     }
 
