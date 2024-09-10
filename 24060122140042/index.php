@@ -24,8 +24,8 @@ function print_mhs($array_mhs) {
 
     echo "<table> <tr>";
     echo "<td> nama </td>";
-    for ($i = 0; $i < $l; $i++) {
-        echo '<td> nilai' .$i. '</td>';
+    for ($i = 1; $i <= $l; $i++) {
+        echo '<td> nilai ' .$i. '</td>';
     }
 
     echo "<td> Rata2 </td>";
