@@ -14,6 +14,9 @@ TANGGAL: 07/09/2024
 		foreach($array as $nilaimhs) {
 			$jumlah_nilai_mhs += $nilaimhs;
 			$n_nilai++;
+			if($n_nilai == 3) { // because tabelnya statis cuma sampe nilai3 harus dicounter 
+				break;
+			}
 		}
 		// echo "nilai : $n_nilai <br />";
 		$rata2 = ($jumlah_nilai_mhs) / ($n_nilai);
@@ -49,7 +52,11 @@ TANGGAL: 07/09/2024
 		'Budi' => array(78, 60, 64),
 		'Nina' => array(67, 56, 84),
 		'Budi' => array(87, 69, 50),
-		'Budi' => array(98, 65, 74)
+		'Budi' => array(98, 65, 74),
+
+		// case > 3 nilai
+		'Yudha' => array(100,100,70,30,100),
+		'Putra' => array(20,50,50,50,30)
 	);
 
 	// main 
